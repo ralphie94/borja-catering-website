@@ -1,0 +1,12 @@
+.header_right {
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 767px) {
+    .header_right {
+        visibility: visible;
+    }
+}
