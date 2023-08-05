@@ -1,22 +1,26 @@
 import React from 'react';
 import styled from 'styled-components';
-import firstImg from '../assets/int-menu.jpg';
+import Fade from 'react-reveal/Fade';
 
 function Section({ title, description, leftBtnText, rightBtnText, backgroundImg }) {
   return (
     <Wrap bgImage={ backgroundImg }>
-        <ItemText>
-            <h1>{ title }</h1>
-            <p>{ description }</p>
-        </ItemText>
-        <ButtonGroup>
-            <LeftButton>
-                { leftBtnText }
-            </LeftButton>
-            <RightButton>
-                { rightBtnText }
-            </RightButton>
-        </ButtonGroup>
+        <Fade bottom>
+            <ItemText>
+                <h1>{ title }</h1>
+                <p>{ description }</p>
+            </ItemText>
+        </Fade>
+        <Fade bottom>
+            <ButtonGroup>
+                <LeftButton>
+                    { leftBtnText }
+                </LeftButton>
+                <RightButton>
+                    { rightBtnText }
+                </RightButton>
+            </ButtonGroup>
+        </Fade>
     </Wrap>
   )
 };

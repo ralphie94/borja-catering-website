@@ -7,10 +7,12 @@ import thirdImg from '../assets/italian-menu.jpg';
 import fourthImg from '../assets/mexican-menu.jpg';
 import fifthImg from '../assets/south-of-the-west.jpg';
 import sixthImg from '../assets/roast-beef-menu.jpg';
+import Main from './Main';
 
 const Home = () => {
   return (
     <Container> 
+        <Main />
         <Section
             title='The International Menu'
             description='International cuisine that features exquisite authentic dishes from various regions around the world.' 
