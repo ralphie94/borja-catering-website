@@ -11,11 +11,11 @@ const Header = () => {
     <Container>
         <a><img src={BorjaLogo} alt="Borja Logo" className='header_logo' /></a>
         <Menu>
-            <p><a href="#">Home</a></p>
-            <p><a href="#">Menus</a></p>
-            <p><a href="#">About</a></p>
-            <p><a href="#">Testimonials</a></p>
-            <p><a href="#">Gallery</a></p>
+            <a href="#">Home</a>
+            <a href="#">Menus</a>
+            <a href="#">About</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Gallery</a>
         </Menu>
         <RightMenu>
             <CustomMenu onClick={() => setBurgerStatus(true)} />
@@ -52,6 +52,7 @@ const Container = styled.div`
     img {
         width: 80px;
         height: 80px;
+        margin-left: 4rem;
     }
 `
 
@@ -60,11 +61,12 @@ const Menu = styled.div`
     align-items: center;
     justify-content: center;
     flex: 1;
+    margin-right: 7rem;
 
     a {
-        text-transform: uppercase;
         padding: 0 10px;
         flex-wrap: nowrap
+        color: #fff;
     }
 
     @media screen and (max-width: 768px) {
@@ -85,6 +87,8 @@ const RightMenu = styled.div`
 const CustomMenu = styled(MenuIcon)`
     cursor: pointer;
     visibility: hidden;
+    color: #fff;
+    margin-right: 1rem;
 
     @media screen and (max-width: 768px) {
         visibility: visible;
@@ -111,10 +115,15 @@ const BurgerNav = styled.div`
         padding: 15px 0;
         border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     }
+
+    a {
+        color: #000;
+    }
 `
 
 const CustomClose = styled(CloseIcon)`
     cursor: pointer;
+    color: #000;
 `
 
 const CloseWrapper = styled.div`
