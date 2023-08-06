@@ -13,6 +13,7 @@ const Home = () => {
   return (
     <Container> 
         <Main />
+        <div id='section-one'></div>
         <Section
             title='The International Menu'
             description='International cuisine that features exquisite authentic dishes from various regions around the world.' 

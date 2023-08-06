@@ -3,16 +3,17 @@ import styled from 'styled-components';
 import BorjaLogo from '../assets/borja-logo.PNG';
 import CloseIcon from '@material-ui/icons/Close';
 import MenuIcon from '@material-ui/icons/Menu';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Header = () => {
     const [burgerStatus, setBurgerStatus] = useState(false);
 
   return (
     <Container>
-        <a><img src={BorjaLogo} alt="Borja Logo" className='header_logo' /></a>
+        <Link smooth to="#home"><img src={BorjaLogo} alt="Borja Logo" className='header_logo' /></Link>
         <Menu>
-            <a href="#">Home</a>
-            <a href="#">Menus</a>
+            <Link smooth to="#home">Home</Link>
+            <Link smooth to="#section-one">Menus</Link>
             <a href="#">About</a>
             <a href="#">Testimonials</a>
             <a href="#">Gallery</a>
@@ -24,12 +25,12 @@ const Header = () => {
             <CloseWrapper>
                 <CustomClose onClick={() => setBurgerStatus(false)} />
             </CloseWrapper>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menus</a></li>
+            <li><Link to="/" onClick={() => setBurgerStatus(false)}>Home</Link></li>
+            <li><Link smooth to="#section-one" onClick={() => setBurgerStatus(false)}>Menus</Link></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Testimonials</a></li>
             <li><a href="#">Gallery</a></li>
-            <li><a href="#">Request a Quote</a></li>
+            <li><Link to="/contact" onClick={() => setBurgerStatus(false)}>Request a Quote</Link></li>
         </BurgerNav>
     </Container>
   )

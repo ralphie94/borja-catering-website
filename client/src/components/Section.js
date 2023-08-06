@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-router-dom';
 
 function Section({ title, description, leftBtnText, rightBtnText, backgroundImg }) {
   return (
-    <Wrap bgImage={ backgroundImg }>
+    <Wrap bgimage={ backgroundImg }>
         <Fade bottom>
             <ItemText>
                 <h1>{ title }</h1>
@@ -13,9 +14,9 @@ function Section({ title, description, leftBtnText, rightBtnText, backgroundImg 
         </Fade>
         <Fade bottom>
             <ButtonGroup>
-                <LeftButton>
+                <Link to='/contact'><LeftButton>
                     { leftBtnText }
-                </LeftButton>
+                </LeftButton></Link>
                 <RightButton>
                     { rightBtnText }
                 </RightButton>
@@ -39,7 +40,7 @@ const Wrap = styled.div`
     background-repeat: no-repeat;
     object-fit: cover;
     object-position: center;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(25.10% 25.10% at 50.76% 22.75%, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.00) 100%), url(${props => props.bgImage});
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(25.10% 25.10% at 50.76% 22.75%, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.00) 100%), url(${props => props.bgimage});
     scroll-snap-align: start;
     scroll-snap-stop: always;
 `
