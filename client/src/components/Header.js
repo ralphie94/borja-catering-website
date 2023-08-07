@@ -12,9 +12,9 @@ const Header = () => {
     <Container>
         <Link smooth to="#home"><img src={BorjaLogo} alt="Borja Logo" className='header_logo' /></Link>
         <Menu>
-            <Link smooth to="#home">Home</Link>
-            <Link smooth to="#section-one">Menus</Link>
-            <a href="#">About</a>
+            <Link smooth to="/#home">Home</Link>
+            <Link smooth to="/#section-one">Menus</Link>
+            <a href="/#about">About</a>
             <a href="#">Testimonials</a>
             <a href="#">Gallery</a>
         </Menu>
@@ -26,8 +26,8 @@ const Header = () => {
                 <CustomClose onClick={() => setBurgerStatus(false)} />
             </CloseWrapper>
             <li><Link to="/" onClick={() => setBurgerStatus(false)}>Home</Link></li>
-            <li><Link smooth to="#section-one" onClick={() => setBurgerStatus(false)}>Menus</Link></li>
-            <li><a href="#">About</a></li>
+            <li><Link smooth to="/#section-one" onClick={() => setBurgerStatus(false)}>Menus</Link></li>
+            <li><a href="/#about">About</a></li>
             <li><a href="#">Testimonials</a></li>
             <li><a href="#">Gallery</a></li>
             <li><Link to="/contact" onClick={() => setBurgerStatus(false)}>Request a Quote</Link></li>

@@ -8,6 +8,7 @@ import fourthImg from '../assets/mexican-menu.jpg';
 import fifthImg from '../assets/south-of-the-west.jpg';
 import sixthImg from '../assets/roast-beef-menu.jpg';
 import Main from './Main';
+import About from './About';
 
 const Home = () => {
   return (
@@ -56,6 +57,7 @@ const Home = () => {
             leftBtnText='Request a Quote'
             rightBtnText= 'Explore Menu'
         />
+        <About />
     </Container>
   )
 };
