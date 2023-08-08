@@ -16,7 +16,7 @@ const Header = () => {
             <Link smooth to="/#section-one">Menus</Link>
             <a href="/#about">About</a>
             <a href="#">Testimonials</a>
-            <a href="#">Gallery</a>
+            <a href="/gallery">Gallery</a>
         </Menu>
         <RightMenu>
             <CustomMenu onClick={() => setBurgerStatus(true)} />
