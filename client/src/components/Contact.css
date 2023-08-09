@@ -99,7 +99,7 @@ select {
 }
 
 @media screen and (max-width: 767px) {
-    .container {
+    .contact-container {
         display: flex;
         justify-content: center;
         flex-direction: column;

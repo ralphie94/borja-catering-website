@@ -7,16 +7,20 @@ import galleryFive from '../assets/gallery-five.jpg';
 import './Gallery.css';
 
 const Gallery = () => {
+  const images = [
+    galleryOne,
+    galleryTwo,
+    galleryThree,
+    galleryFour,
+    galleryFive
+  ]
+
   return (
     <div className='gallery-container'>
         <h1>Gallery</h1>
-        <div className='photo-container'>
-            <img src={galleryOne} alt='' />
-            <img src={galleryTwo} alt='' />
-            <img src={galleryThree} alt='' />
-            <img className='image-four' src={galleryFour} alt='' />
-            <img src={galleryFive} alt='' />
-        </div>
+            {images.map((image, i) => (
+              <img className='grid-image' key={i} src={image} alt='' />
+            ))}
     </div>
   )
 }
