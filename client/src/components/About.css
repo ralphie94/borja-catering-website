@@ -57,3 +57,24 @@
     font-weight: 400;
     margin-bottom: 8rem;
 }
+
+@media screen and (max-width: 768px) {
+    .content-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-container {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+    }
+
+    .title {
+        margin-bottom: 0;
+    }
+
+    .mid-container {
+        width: 100%;
+    }
+}
