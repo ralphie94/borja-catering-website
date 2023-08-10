@@ -75,39 +75,6 @@
     margin-top: 11px;
 }
 
-.french-menu-container {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.french-menu-container-right {
-    display: flex;
-    margin: 20px 0;
-    width: 40%;
-    flex-direction: column;
-}
-
-.french-menu-left {
-    width: 50%;
-    height: 100vh;
-    object-fit: cover;  
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url("../assets/chicken.jpg"), lightgray 50% / cover no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.french-menu-right {
-    display: flex;
-    flex-wrap: wrap;
-    width: 70%;
-    justify-content: space-between;
-    margin-top: 2rem;
-}
-
 .reverse-menu-wrap {
     display: flex;
     justify-content: center;
@@ -118,6 +85,54 @@
     scroll-snap-stop: always;
 }
 
+.menu-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    background: rgba(255, 255, 255, 0.00);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+.explore-menu-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    background: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+.sirloin-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 390px;
+}
+
+.sirloin-menu-left {
+    width: 50%;
+    height: 100vh;
+    object-fit: cover;  
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url("../assets/sirloin-menu.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 @media screen and (max-width: 768px) {
     .explore-container {
         width: 100%;
@@ -126,6 +141,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        height: 100vh;
     }
 
     .menu-left {
@@ -164,5 +180,19 @@
         margin: 20px 0;
         flex-direction: column;
         width: auto;
+    }
+
+    .menu-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .reverse-menu-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
