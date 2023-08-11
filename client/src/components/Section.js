@@ -17,9 +17,9 @@ function Section({ title, description, leftBtnText, rightBtnText, backgroundImg 
                 <Link to='/contact'><LeftButton>
                     { leftBtnText }
                 </LeftButton></Link>
-                <RightButton>
+                <Link to='/explore'><RightButton>
                     { rightBtnText }
-                </RightButton>
+                </RightButton></Link>
             </ButtonGroup>
         </Fade>
     </Wrap>
@@ -55,6 +55,16 @@ const ItemText = styled.div`
 
     p {
         color: #fff;
+    }
+
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 12px;
+        }
     }
 `
 

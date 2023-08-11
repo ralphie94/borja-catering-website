@@ -316,7 +316,7 @@ const Explore = () => {
                     <Link to="/contact"><p style={{color: '#000'}}>Request a Quote</p></Link>
                 </div>
                 <div className="explore-menu-btn">
-                    <Link to="/contact"><p style={{color: '#fff'}}>Explore Menu</p></Link>
+                    <Link to="/sirloin-menu"><p style={{color: '#fff'}}>Explore Menu</p></Link>
                 </div>
             </div>
         </section>

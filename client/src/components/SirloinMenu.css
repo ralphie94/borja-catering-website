@@ -1,0 +1,139 @@
+.sirloin-pic {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(33.30% 33.30% at 50.00% 19.82%, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%), url('../assets/sirloin-plate.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    top: 0;
+    height: 100vh;
+    padding-top: 15vh;
+    text-align: center;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+    color: #fff;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.sirloin-menu-btn {
+    width: 248px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.sirloin-pic > h1 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.sirloin-container {
+    background-color: #e6e6e6;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-content {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(33.30% 33.30% at 50.00% 19.82%, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%), url('../assets/sirloin-close.jpg');
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+}
+
+.right-content {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 170px;
+    height: 1px;
+    background: #000;
+    margin-top: 8px;
+}
+
+.right-content > h1 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.right-content > p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 370px;
+    margin-top: 30px;
+    line-height: 28px;
+}
+
+.rice-container {
+    background-color: #e6e6e6;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-pic {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(33.30% 33.30% at 50.00% 19.82%, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%), url('../assets/rice-plate.jpg');
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (max-width: 768px) {
+    .left-pic {
+        width: 100%;
+    }
+
+    .right-content {
+        position: absolute;
+        width: 100%;
+    }
+
+    .right-content > h1 {
+        color: #fff;
+    }
+
+    .right-content > p {
+        color: #fff;
+        width: 300px;
+    }
+
+    .line {
+        background: #fff;
+    }
+
+    .left-content {
+        width: 100%;
+    }
+}
