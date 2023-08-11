@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     flex-direction: row;
     background-color: #e6e6e6;
 }
@@ -23,6 +22,7 @@
     margin: 0 20px;
     padding: 20px 0;
     object-fit: cover;
+    display: flex;
 }
 
 @media screen and (max-width: 768px) {

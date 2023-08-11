@@ -164,16 +164,16 @@ const Explore = () => {
             desc:'Consisting a variety of different lettuce, including spinach and tender baby lettuce.'
         },
         {
-            title:'Chicken In Brown Burgundy Sauce',
-            desc:'Finger sized, cut pieces of chicken breast accompanied with brown burgundy mushroom sauce.'
+            title:'Oven Roast Top Sirloin',
+            desc:'Tender pieces of beef slowly and carefully cooked in its own juice and accompanied with delicious brown sauce.'
         },
         {
-            title:'Oven Roast Beef',
-            desc:'Oven roasted Top Sir Loin beef, carved on site of event with a brown gravy sauce on the side.'
+            title:'Chicken In Creamy Champagne Sauce',
+            desc:'Chicken breast cut to bite size pieces accompanied with its Zinfandel cream sauce.'
         },
         {
-            title:'Mashed Potatoes',
-            desc:'Chef Borja classic take on mashed potatoes.'
+            title:'Peruvian Style Rice',
+            desc:'Rice cooked with a hint of garlic and sea salt.'
         },
         {
             title:'Vegetables Medley',

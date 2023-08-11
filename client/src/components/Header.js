@@ -14,9 +14,10 @@ const Header = () => {
         <Menu>
             <Link smooth to="/#home">Home</Link>
             <Link smooth to="/#section-one">Menus</Link>
-            <a href="/#about">About</a>
+            <Link smooth to="/#about">About</Link>
             <a href="#">Testimonials</a>
             <a href="/gallery">Gallery</a>
+            <a href="/contact">Contact</a>
         </Menu>
         <RightMenu>
             <CustomMenu onClick={() => setBurgerStatus(true)} />
@@ -27,9 +28,9 @@ const Header = () => {
             </CloseWrapper>
             <li><Link to="/" onClick={() => setBurgerStatus(false)}>Home</Link></li>
             <li><Link smooth to="/#section-one" onClick={() => setBurgerStatus(false)}>Menus</Link></li>
-            <li><a href="/#about">About</a></li>
+            <li><Link smooth to="/#about">About</Link></li>
             <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="/gallery">Gallery</a></li>
             <li><Link to="/contact" onClick={() => setBurgerStatus(false)}>Request a Quote</Link></li>
         </BurgerNav>
     </Container>
