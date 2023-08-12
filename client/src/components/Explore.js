@@ -1,6 +1,7 @@
 import React from 'react';
 import './Explore.css';
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
 
 const Explore = () => {
     const int_menu_left = [
@@ -190,6 +191,7 @@ const Explore = () => {
     ]
 
   return (
+    <>
     <div className='explore-container'>
         <div className='menu-wrap'>
         <div className='menu-left'>
@@ -322,6 +324,8 @@ const Explore = () => {
         </section>
         </div>
     </div>
+    <Footer />
+    </>
   )
 }
 

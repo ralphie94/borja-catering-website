@@ -1,9 +1,11 @@
 import React from 'react';
 import './SirloinMenu.css';
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
 
 const SirloinMenu = () => {
   return (
+    <>
     <div className='sirloin-menu-container'>
         <div className='sirloin-pic'>
             <h1>Top Sirloin Menu</h1>
@@ -36,6 +38,8 @@ const SirloinMenu = () => {
             </div>
         </div>
     </div>
+    <Footer />
+    </>
   )
 }
 

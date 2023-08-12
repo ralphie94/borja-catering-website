@@ -1,8 +1,10 @@
 import React from 'react';
 import './Contact.css';
+import Footer from '../components/Footer';
 
 const Contact = () => {
   return (
+    <>
     <div className="contact-container">
         <div className="contact-left">
 
@@ -41,6 +43,8 @@ const Contact = () => {
             </form>
         </div>
     </div>
+    <Footer />
+    </>
   )
 }
 

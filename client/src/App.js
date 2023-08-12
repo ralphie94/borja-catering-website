@@ -22,7 +22,7 @@ function App() {
           <Route path="/sirloin-menu" element={<SirloinMenu />} />
         </Routes>
       </Router>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
