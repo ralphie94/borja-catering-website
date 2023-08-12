@@ -89,4 +89,18 @@ video {
   .content p {
       font-size: 12px;
   }
+
+  .buttons {
+    margin-bottom: 8rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .buttons {
+    margin-bottom: 0;
+  }
+
+  .content {
+    margin-top: -40rem;
+  }
 }

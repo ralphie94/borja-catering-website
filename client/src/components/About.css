@@ -62,6 +62,8 @@
     .content-container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .img-container {
@@ -76,5 +78,21 @@
 
     .mid-container {
         width: 100%;
+    }
+
+    .mid-container p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .mid-container h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .mid-container p {
+        text-align: center;
+        font-size: 12px;
     }
 }

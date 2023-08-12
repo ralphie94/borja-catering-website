@@ -33,9 +33,9 @@ const Contact = () => {
                 <div className="btn-icon-container">
                 <button className="contact-btn" type="submit">Submit</button>
                     <div className="contact-icons">
-                        <a href="" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a>
-                        <a href="" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook"></i></a>
-                        <a href="" target="_blank" rel="noreferrer"><i className="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/chefborjabanquets/?igshid=ZDdkNTZiNTM%3D" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/people/Chef-Borja-Int-Banquets/100089451627084/?mibextid=ZbWKwL" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FChefBorjaBanq" target="_blank" rel="noreferrer"><i className="fa-brands fa-twitter"></i></a>
                     </div>
                 </div>
             </form>

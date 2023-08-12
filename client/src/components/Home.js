@@ -9,6 +9,7 @@ import fifthImg from '../assets/south-of-the-west.jpg';
 import sixthImg from '../assets/roast-beef-menu.jpg';
 import Main from './Main';
 import About from './About';
+import Footer from './Footer';
 
 const Home = () => {
   return (
@@ -58,6 +59,7 @@ const Home = () => {
             rightBtnText= 'Explore Menu'
         />
         <About />
+        <Footer />
     </Container>
   )
 };
@@ -69,4 +71,5 @@ const Container = styled.div`
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
+    position: relative;
 `

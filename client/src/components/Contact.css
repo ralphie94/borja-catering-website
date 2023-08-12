@@ -138,4 +138,8 @@ select {
         font-size: 14px;
         width: 100%;
     }
+
+    .contact-icons {
+        margin-bottom: 1rem;
+    }
 }

@@ -43,6 +43,7 @@ const Wrap = styled.div`
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(25.10% 25.10% at 50.76% 22.75%, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.00) 100%), url(${props => props.bgimage});
     scroll-snap-align: start;
     scroll-snap-stop: always;
+    position: relative;
 `
 
 const ItemText = styled.div`

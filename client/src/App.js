@@ -6,6 +6,7 @@ import Gallery from "./components/Gallery";
 import Explore from "./components/Explore";
 import SirloinMenu from "./components/SirloinMenu";
 import ScrollToTop from "./components/ScrollToTop";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/sirloin-menu" element={<SirloinMenu />} />
         </Routes>
       </Router>
+      <Footer />
     </>
   );
 }
