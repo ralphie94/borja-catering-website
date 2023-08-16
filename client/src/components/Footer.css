@@ -33,10 +33,13 @@ footer {
     font-size: 14px;
     font-weight: 500;
     color: #fff;
+    font-family: 'Roboto';
 }
 
 .contact-info {
     margin-top: 5px;
+    font-family: 'Roboto';
+    font-size: 14px;
 }
 
 @media screen and (max-width: 768px) {

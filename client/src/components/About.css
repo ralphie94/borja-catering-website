@@ -96,3 +96,16 @@
         font-size: 12px;
     }
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .content-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img-container {
+        width: 450px;
+        height: 490px;
+        margin-right: 2rem;
+    }
+}
